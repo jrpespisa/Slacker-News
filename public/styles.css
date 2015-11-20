@@ -1,0 +1,183 @@
+/*****  BODY  ****/
+
+body {
+  max-width: 85%;
+  margin: auto;
+  margin-top: 5px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+
+/******  NAV BAR  *******/
+
+nav {
+ background-color: #ff6600;
+}
+
+nav ul {
+  padding: 1px;
+  margin: 0px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-12.5%);
+}
+
+
+nav ul li {
+  display: inline;
+  font-size: 13.3333px;
+}
+
+nav ul li img {
+  width: 18px;
+  height: 18px;
+  border: 1px #fff solid;
+  position: relative;
+  top: 50%;
+  transform: translateY(25%);
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 13.3333px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.login {
+  padding-left: 50px;
+  display: inline;
+  float:right;
+  padding-right: 5px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-100%);
+}
+
+
+/******   MAIN ARTICLE SECTION   ********/
+
+.articlelist {
+  background-color: #f6f6ef;
+  margin: 0px;
+  color: grey;
+  font-size: 10pt;
+  padding: 10px 0px 0px 31px;
+}
+
+.article {
+  padding: 3.5px 0px;
+}
+
+.article p {
+  padding: 2px;
+}
+
+body p {
+  margin: 0px;
+  padding-top: 10px;
+}
+
+.article p a {
+  display: inline;
+  text-decoration: none;
+}
+
+.article p a img {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  left: -6px;
+}
+
+.mainlink:hover {
+  text-decoration: none;
+}
+
+.sublink:hover,
+span a:hover {
+  text-decoration: underline;
+}
+
+.article p a:visited,
+span a:visited,
+.footerlist li a:visited,
+footer p a:visited,
+.more a:visited {
+  color: grey
+}
+
+.mainlink {
+  color: black;
+  font-size: 10pt;
+}
+
+.sublink {
+  color: grey;
+}
+
+.article p {
+  font-size: 8pt;
+  padding: 0px 2px;
+}
+
+.more {
+  background-color: #f6f6ef;
+  font-size: 13.3333px;
+  padding-bottom: 10px;
+  padding-left: 42px;
+}
+
+.more a {
+  text-decoration: none;
+  color: black
+}
+
+/****  FOOTER  ****/
+
+
+footer {
+  background-color: #f6f6ef;
+  border-top: 2px #ff6600 solid;
+  padding: 12.5px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0px;
+  font-size: 13.3333px;
+}
+
+footer p a {
+  text-decoration: none;
+  color: black;
+}
+
+.footerlist li {
+  display: inline-block;
+  font-size: 10.6667px;
+  color: grey
+}
+
+.footerlist li a {
+  text-decoration: none;
+  color: black
+}
+
+span {
+  font-size: 9.3333px;
+}
+
+span a {
+  text-decoration: none;
+  color: grey;
+
+}
+
+label {
+  color: grey;
+  font-size: 13.3333px
+}
